@@ -1,0 +1,5 @@
+# dependencias solo para desarrollo (tests y analisis de codigo)
+-r requirements.txt
+pytest==9.2.0
+pylint==4.1.4
+radon==6.0.1

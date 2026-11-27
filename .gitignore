@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# entorno virtual
+venv/
+env/
+.venv/
+
+# pytest y otras herramientas
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# variables de entorno (no subir secretos)
+.env
+
+# datos generados en tiempo de ejecucion
+favorites.json
+
+# editores
+.idea/
+.vscode/
+*.swp
+
+# sistema operativo
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
